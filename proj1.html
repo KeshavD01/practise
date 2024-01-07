@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud9 Gym</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Young+Serif&display=swap" rel="stylesheet"> 
+<style>
+    body{
+        font-family: 'Young Serif', serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('xJGh7s.jpg')
+    }
+    .header{
+        color: white;
+        /* border: 2px solid gray;
+        background-color: rgb(106, 105, 105); */
+        
+    } 
+    .left{
+        /* border: 2px solid red; */
+        position: absolute;
+        display: inline-block;
+        left: 2px;
+        top: 12px;
+        margin: -12px auto;
+        box-sizing: border-box;
+        height: 135px;
+    }
+    .centre{
+        /* border: 2px solid yellow; */
+        width: 43%;
+        
+        margin: 12px auto;
+        display: block;
+
+    }
+    .right{
+        /* border: 2px solid greenyellow; */
+        position: absolute;
+        right: 2px;
+        top: 16px;
+        display: inline-block;
+        margin: 14px;
+}
+ .navbar li{
+    display: inline-block;
+    padding: 10px;
+    
+ }
+ .navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+ }
+ .navbar li a:hover, .navbar li a.active{
+    color: yellow;
+    text-decoration: underline;
+ }
+ .left img{
+    width: 110px;
+    height: 100px;
+ }
+ .left div{
+    text-align: center;
+    line-height: 5px;
+    font-size: 17px;
+ }
+ .btn{
+    padding: 5px;
+    margin: 3px;
+    background-color: rgb(244, 188, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .btn:hover{
+    background-color: yellow;
+ }
+ .container{
+    border: 2px solid rgb(244, 188, 0);
+    margin: 90px 50px;
+    padding: 20px;
+    width: 45%;
+    border-radius: 10px;
+    }
+    h1{
+        color: white;
+        text-align: center;
+    }
+    .form-group{
+        margin: 10px;
+        text-align: center;
+       
+        font-size: 20px;
+        font-family: 'Young Serif', serif;
+        display: block;
+
+    }
+    .container button{
+        margin: auto;
+        display: block;
+        width: 30%;
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- logo -->
+        <div class="left">
+            <img src="Gym-Free-Download-PNG-420467836.png" alt="">
+            <div>
+                Cloud9 Gym
+            </div>
+        </div>
+        <!-- navbar -->
+        <div class="centre">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Plans</a></li>
+                <li><a href="#">Locations</a></li>
+            </ul>
+            
+        </div>
+        <!-- search -->
+        <div class="right">
+            <button class="btn">
+                Calls Us
+            </button>
+            <button class="btn">
+                Email Us
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym in Mumbai</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Phone Number">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Email">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+</body>
+</html>
